@@ -1,0 +1,25 @@
+{
+  "name": "k6-experiments",
+  "version": "0.1.0",
+  "description": "K6 experiments",
+  "main": "single-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielfs7/k6-experiments.git"
+  },
+  "keywords": [
+    "k6"
+  ],
+  "author": "Gabriel Felipe Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielfs7/k6-experiments/issues"
+  },
+  "homepage": "https://github.com/gabrielfs7/k6-experiments#readme",
+  "dependencies": {
+    "k6": "0.0.0"
+  }
+}
