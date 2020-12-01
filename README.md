@@ -39,6 +39,12 @@ To create a new database:
 curl -XPOST "http://localhost:8086/query" --data-urlencode "q=CREATE DATABASE my_db"
 ```
 
+### Install k6 Grafana Plugin 
+
+Import k6 plugin (https://grafana.com/grafana/dashboards/2587) in the Grafana panel to convert influxDb data to Grafana.
+
+"+ -> Import" and type the ID `2587`.
+
 ## Running test
 
 ```
